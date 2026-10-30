@@ -1,0 +1,33 @@
+{
+    "waste": {
+        "test_accuracy": 0.3949771821498871,
+        "test_loss": 1.268495798110962,
+        "classes": [
+            "Hazardous",
+            "Non-Recyclable",
+            "Organic",
+            "Recyclable"
+        ]
+    },
+    "citizen_complaints": {
+        "sentiment_test_accuracy": 0.125,
+        "category_test_accuracy": 0.875,
+        "dataset_size": 32,
+        "note": "Small demonstration dataset; not production performance"
+    },
+    "energy": {
+        "MAE": 5.109815274531409,
+        "RMSE": 6.411096157673782,
+        "R2": 0.9258526935570676,
+        "features": [
+            "Hour",
+            "DayOfWeek",
+            "Month",
+            "IsWeekend",
+            "Temperature",
+            "PreviousHour",
+            "Previous24Hours"
+        ],
+        "dataset_type": "Synthetic demonstration data"
+    }
+}
